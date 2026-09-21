@@ -1,0 +1,41 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local Kubernetes
+*.kubeconfig
+kubeconfig
+
+# Local credentials / certificates
+*.pem
+*.key
+credentials/
+secrets/
+
+# Build artifacts
+dist/
+build/
